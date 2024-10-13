@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "TASK 2"
+echo " This is a first demo script"
+date
+echo "TASK 3"
+MovieName='Bhulbhulaya'
+echo "The superhit movie name is : " $MovieName
+
+echo "TASK 4"
+echo "The movie will be played at location: " $PWD
+
+echo "TASK 5"
+count=$(ls *.sh | wc -l)
+echo "The movie will exceute in " $count "parts"
